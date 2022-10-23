@@ -1,4 +1,4 @@
-class CompressGene:
+class CompressedGene:
 
     def __init__(self, gene: str) -> None:
         self._compress(gene)
@@ -37,6 +37,23 @@ class CompressGene:
 
     def __str__(self) -> str:
         return self.decompress()
+
+
+if __name__ == '__main__':
+    from sys import getsizeof
+    original: str = \
+    "TAGGGATTAACCGTTATATATATATAGCCATGGATCGATTATATAGGGATTAACCGTTATATATATATAGCCATGGATCGATTATA" * 100
+
+    print("Original: {} Byte".format(getsizeof(original)))
+
+    compressed: CompressedGene = CompressedGene(original) # Komprimieren
+
+    print("Komprimiert: {} Byte".format(getsizeof(compressed.bit_string)))
+
+    print(compressed) # dekomprimiert
+
+    print("Originaldaten und dekomprimierte Daten sind identisch: {}". 
+      format(original == compressed.decompress()))
 
 
             

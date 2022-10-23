@@ -3,10 +3,10 @@
 Weniger Platz => effizient / monitär Sparsamer.
 
 Wenn die Anzahl möglicher Werte, die ein Typ darstellen soll, kleiner ist als die Anzahl
-der Werte, die mithilfe der zur Speicherung verwendeten Bits farsgestellt werden kann, 
+der Werte, die mithilfe der zur Speicherung verwendeten Bits dargestellt werden kann, 
 ist es wahrscheinlich möglich, diesen Typ effizienter zu Speichern.
 
-Bsp die Nukleotide, die ind der DNA ein Gen bilden.
+Bsp die Nukleotide, die in der DNA ein Gen bilden.
 
 Nukleotide: A, C, G oder T.
 
