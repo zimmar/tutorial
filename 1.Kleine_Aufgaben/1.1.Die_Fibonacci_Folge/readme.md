@@ -55,3 +55,24 @@ fib(5) ->      5:     15
 fib(9) ->     34:    109
 fib(20) ->  6765:   21891
 fib(25) -> 75025:  242785
+
+### Fib1
+Nicht lauffähige da es keine Abbruchbedingung gibt.
+
+### Fib2
+Rekusive Funktionsaufruf. !!! Werte über 50 können so nicht ermittelt werden.
+
+### Fib3
+Memoisation. Jeder Aufruf wird zwischengespeichert. So wird eine Berechnung nicht x-mal wiederholt.
+
+### Fib4
+Wie fib3 jedoch mit python internen mitteln der Zwischenspeicherung.
+
+### Fib5
+Sequentieller Aufruf der Function. Werte über 50 werden damit möglich.
+
+### Fib6
+Sequentieller Aufruf wie Fib5. Jeder Aufruf wird gespeichert und Ausgegeben.
+
+### Fib7
+Object Orientierter Ansatz von Fibonacci.
