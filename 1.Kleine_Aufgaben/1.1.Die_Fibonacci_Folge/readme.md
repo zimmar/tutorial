@@ -19,13 +19,12 @@ der beiden Vorgänger ist. Ausnahme: 1 und 2 Zahl
 
 
 ## 1.2 Fibonacci Funktion
-    'python 
-    {
+```python 
         def fib1(n: int) -> int:
             if n < 2: # Abbruchbedingung
                 return n
             return fib1(n-1) + fib1(n-2)
-    }'
+```
     
 
 # 1.2.1 Funktionsablauf.
